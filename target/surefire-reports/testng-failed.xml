@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Full Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="All API Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.rest.ResponseSpecificationExample">
+        <methods>
+          <include name="responseSpec"/>
+        </methods>
+      </class> <!-- com.rest.ResponseSpecificationExample -->
+      <class name="com.rest.UriTest">
+        <methods>
+          <include name="uriExample"/>
+        </methods>
+      </class> <!-- com.rest.UriTest -->
+      <class name="com.rest.AutomatePost">
+        <methods>
+          <include name="createUser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.rest.AutomatePost -->
+      <class name="com.rest.MethodChaining">
+        <methods>
+          <include name="chainingExample"/>
+        </methods>
+      </class> <!-- com.rest.MethodChaining -->
+      <class name="com.rest.StaticImports">
+        <methods>
+          <include name="example"/>
+        </methods>
+      </class> <!-- com.rest.StaticImports -->
+      <class name="com.rest.ResponseSpecBuilderExample">
+        <methods>
+          <include name="builderExample"/>
+        </methods>
+      </class> <!-- com.rest.ResponseSpecBuilderExample -->
+      <class name="com.rest.AutomateDelete">
+        <methods>
+          <include name="setup"/>
+          <include name="deleteUser"/>
+        </methods>
+      </class> <!-- com.rest.AutomateDelete -->
+      <class name="com.rest.NonStaticImports">
+        <methods>
+          <include name="example"/>
+        </methods>
+      </class> <!-- com.rest.NonStaticImports -->
+      <class name="com.rest.RequestPayloadComplexJson">
+        <methods>
+          <include name="complexJson"/>
+        </methods>
+      </class> <!-- com.rest.RequestPayloadComplexJson -->
+      <class name="com.rest.AutomateGet">
+        <methods>
+          <include name="getUsers"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.rest.AutomateGet -->
+      <class name="com.rest.RequestPayloadAsJsonArray">
+        <methods>
+          <include name="jsonArray"/>
+        </methods>
+      </class> <!-- com.rest.RequestPayloadAsJsonArray -->
+      <class name="com.rest.AutomatePut">
+        <methods>
+          <include name="updateUser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.rest.AutomatePut -->
+      <class name="com.rest.AutomateHeaders">
+        <methods>
+          <include name="headersExample"/>
+        </methods>
+      </class> <!-- com.rest.AutomateHeaders -->
+    </classes>
+  </test> <!-- All API Tests(failed) -->
+</suite> <!-- Failed suite [Full Test Suite] -->

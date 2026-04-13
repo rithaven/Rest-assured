@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Full Test Suite">
+
+    <test name="All API Tests">
+        <classes>
+            <class name="com.rest.AutomateGet"/>
+            <class name="com.rest.AutomatePost"/>
+            <class name="com.rest.AutomatePut"/>
+            <class name="com.rest.AutomateDelete"/>
+            <class name="com.rest.AutomateHeaders"/>
+            <class name="com.rest.Logging"/>
+            <class name="com.rest.MethodChaining"/>
+            <class name="com.rest.NonStaticImports"/>
+            <class name="com.rest.StaticImports"/>
+            <class name="com.rest.RequestPayloadAsJsonArray"/>
+            <class name="com.rest.RequestPayloadComplexJson"/>
+            <class name="com.rest.ResponseSpecificationExample"/>
+            <class name="com.rest.ResponseSpecBuilderExample"/>
+            <class name="com.rest.UriTest"/>
+            <class name="com.rest.TestRest"/>
+        </classes>
+    </test>
+
+</suite>
